@@ -1,3 +1,5 @@
 == README
 
+app: https://classifyed.herokuapp.com/
+
 This web app uses machine learning to predict the difficulty of made-up classes based on the difficulty of similar classes at UPenn. I harvested the data for the app using python scripts and calculated the linear regression coefficients using Octave and matlab.
