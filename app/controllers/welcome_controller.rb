@@ -20,6 +20,10 @@ class WelcomeController < ApplicationController
 				ave += line.weight
 			end
 		end
+		if count == 0
+			count = 1
+		end
+		
 		@score += 4*(ave/count)
 
 
